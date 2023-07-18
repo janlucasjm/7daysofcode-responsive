@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsivo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <main>
+        <section class="perfil">
+            <img src="img/perfil.svg">
+            <div class="perfil__name">
+                <h2>Olá, Sônia</h2>
+                <p>Mais 4 consultas hoje</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="day">
+                <h2>Hoje</h2>
+            </div>
+
+            <ul>
+
+                <li>
+                    <div class="consulta__card">
+                        <div class="consulta__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="img/luciana.svg" alt="Imagem de perfil do paciente" />
+                                <div>
+                                    <strong>Luciana Dias</strong>
+                                    <span>
+                                        <img src="img/Camera.svg">
+                                        <span aria-hidden="true" class="camera"></span>
+                                        Consulta remota
+                                    </span>
+                                </div>
+                                <img src="img/Chatcirculo1.svg" class="img__chat">
+                            </div>
+                            <div class="consulta__card-chat"></div>
+                        </div>
+                        <div class="consulta__card-conteudo">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="consulta__card-acoes">
+                                <a href="#" class="btn-secundario">Ligar por vídeo</a>
+                                <a href="#" class="btn-terciario">Ligar por áudio</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+    </main>
 </body>
+
 </html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --cor-fundo: linear-gradient(135deg, #F8F4FF 0%, #EFF0F4 100%);
+    --fonte: 'Montserrat', sans-serif;
+    --cinza-claro: #A3A3A3;
+    --cor-grafite: #464646;
+    --cor-branca: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--cor-fundo);
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-grafite);
+}
+
+/* Perfil */
+
+main {
+    margin: 32px 16px;
+}
+
+.perfil {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.perfil__name h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.perfil__name p {
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+
+.day {
+    margin-top: 30px;
+}
+
+/* Pacientes */
+
+ul {
+    background-color: var(--cor-branca);
+    margin-top: 8px;
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.consulta__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__card-paciente {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.consulta__card-paciente div {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__card-chat {
+    border: 1px solid;
+    color: var(--cinza-claro);
+    width: auto;
+}
+
+.consulta__card-conteudo {
+    padding: 16px;
+}
+
+.consulta__card-acoes {
+    display: flex;
+    gap: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.btn-secundario {
+    background-color: #FFB050;
+    padding: 5% 7%;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-branca);
+    text-align: center;
+}
+
+.btn-terciario {
+    background-color: var(--cor-branca);
+    padding: 5% 7%;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-grafite);
+}
+
+strong {
+    margin-bottom: 5px;
+}
+
+span {
+    display: flex;
+    gap: 4px;
+}
+
+.img__chat {
+    margin-left: 70px;
+}
